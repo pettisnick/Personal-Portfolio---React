@@ -1,12 +1,12 @@
 import React from 'react';
+import "./style.css";
 
 function Footer() {
     return (
-		<footer className="footer">
-			<div className="content has-text-centered"></div>
-				<span>Personal Portfolio 2020</span>
-		</footer>
-    );
+		<footer className="footer bg-primary">
+      <span style={{ fontSize: 25, color: "white", textAlign: "center"}}>Created by: Nick Pettis { new Date().getFullYear() }</span>
+    </footer>
+    )
 }
 
 export default Footer;

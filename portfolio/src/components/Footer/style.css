@@ -1,0 +1,19 @@
+.footer {
+    min-height: 100px;
+    position: relative;
+    border: 2px solid black;
+  }
+  
+  .footer span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: rgb(255, 145, 0);
+    border-top: 5px solid navy;
+  }
+
+  
+  
+  

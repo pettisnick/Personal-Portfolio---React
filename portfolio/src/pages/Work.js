@@ -1,4 +1,5 @@
 import React from "react";
+import "./work.css";
 
 const Work = () => {
   return (
@@ -14,7 +15,7 @@ const Work = () => {
                   <p>
                     <a href="https://pettisnick.github.io/Food-Allergy-App/">
                       <strong>Can I Eat It?</strong>
-                    </a>
+                    </a>{" "}
                     is a kid-friendly app that allows kids and adults to check
                     and see if a food item is safe from the child's allergies
                     before consumption and suggests alternatives if the item is
@@ -37,7 +38,7 @@ const Work = () => {
                   <p>
                     <a href="https://blooming-eyrie-04708.herokuapp.com/">
                       <strong>Client Contact Tracker</strong>
-                    </a>
+                    </a>{" "}
                     is an easy to use application that tracks the contact points
                     made by employees of an organization. It allows the user to
                     create new contacts, keep track of existing contacts, and
@@ -45,7 +46,7 @@ const Work = () => {
                   </p>
                   <a href="https://github.com/pettisnick/Client-Contact-Tracker">
                     <img
-                      src="./assets/login.png"
+                      src="../images/login.png"
                       alt="Client Tracker"
                       className="tracker"
                     />
@@ -60,11 +61,13 @@ const Work = () => {
                   <p>
                     <a href="https://floating-cliffs-80394.herokuapp.com/">
                       <strong>Note Taker</strong>
-                    </a>
-                    is an application that uses express to write, save, and delete notes.</p>
+                    </a>{" "}
+                    is an application that uses express to write, save, and
+                    delete notes.
+                  </p>
                   <a href="https://github.com/pettisnick/Client-Contact-Tracker">
                     <img
-                      src="./assets/NoteTaker.png"
+                      src="../images/NoteTaker.png"
                       alt="Note Taker"
                       className="notes"
                     />
@@ -79,12 +82,13 @@ const Work = () => {
                   <p>
                     <a href="https://pettisnick.github.io/HW-5-Work-Day-Scheduler/">
                       <strong>Work Day Scheduler</strong>
-                    </a>
-                    is a simple calendar application that allows the user to save events for any hour between 9am and 5pm.{" "}
+                    </a>{" "}
+                    is a simple calendar application that allows the user to
+                    save events for any hour between 9am and 5pm.{" "}
                   </p>
                   <a href="https://github.com/pettisnick/HW-5-Work-Day-Scheduler">
                     <img
-                      src="./assets/5day.png"
+                      src="./images/5day.png"
                       alt="Work Scheduler"
                       className="schedule"
                     />
@@ -99,12 +103,13 @@ const Work = () => {
                   <p>
                     <a href="https://pettisnick.github.io//HW3-Javascript-Password-Generator/">
                       <strong>Password Generator</strong>
-                    </a>
-                    is an application that generates a random password based on user-selected criteria.{" "}
+                    </a>{" "}
+                    is an application that generates a random password based on
+                    user-selected criteria.{" "}
                   </p>
                   <a href="https://github.com/pettisnick/HW3-Javascript-Password-Generator">
                     <img
-                      src="./assets/passwordGen.png"
+                      src="./images/passwordGen.png"
                       alt="Password Generator"
                       className="password"
                     />
@@ -119,12 +124,14 @@ const Work = () => {
                   <p>
                     <a href="https://blooming-eyrie-04708.herokuapp.com/">
                       <strong>Budget Tracker</strong>
-                    </a>
-                    is a progressive web application that allows the user to add expenses and deposits to their budget with or without a connection.{" "}
+                    </a>{" "}
+                    is a progressive web application that allows the user to add
+                    expenses and deposits to their budget with or without a
+                    connection.{" "}
                   </p>
                   <a href="https://github.com/pettisnick/Budget-Trackers">
                     <img
-                      src="./assets/budget.png"
+                      src="./images/budget.png"
                       alt="Budget Tracker"
                       className="budTracker"
                     />
@@ -133,11 +140,8 @@ const Work = () => {
               </div>
             </div>
           </section>
-
-         
         </div>
       </main>{" "}
-     
     </>
   );
 };

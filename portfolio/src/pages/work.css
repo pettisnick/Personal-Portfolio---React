@@ -1,0 +1,84 @@
+body {
+    background: rgb(160, 170, 180);
+}
+
+.foodAllergy {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 550px;
+  height: 450px;
+  margin-bottom: 30px;
+}
+
+.foodAllergy {
+  border: 2px solid black;
+}
+
+.tracker {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .tracker {
+    border: 2px solid black;
+  }
+
+  .notes {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .notes {
+    border: 2px solid black;
+  }
+
+  .schedule {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .schedule {
+    border: 2px solid black;
+  }
+
+  .password {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .password {
+    border: 2px solid black;
+  }
+
+  .budTracker {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .budTracker {
+    border: 2px solid black;
+  }
+
+  
+
