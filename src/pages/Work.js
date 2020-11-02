@@ -46,7 +46,7 @@ const Work = () => {
                   </p>
                   <a href="https://github.com/pettisnick/Client-Contact-Tracker">
                     <img
-                      src="../images/login.png"
+                      src={process.env.PUBLIC_URL + "/assets/images/login.png"}
                       alt="Client Tracker"
                       className="tracker"
                     />
@@ -67,7 +67,7 @@ const Work = () => {
                   </p>
                   <a href="https://github.com/pettisnick/Client-Contact-Tracker">
                     <img
-                      src="../images/NoteTaker.png"
+                      src={process.env.PUBLIC_URL + "/assets/images/NoteTaker.png"}
                       alt="Note Taker"
                       className="notes"
                     />
@@ -88,7 +88,7 @@ const Work = () => {
                   </p>
                   <a href="https://github.com/pettisnick/HW-5-Work-Day-Scheduler">
                     <img
-                      src="./images/5day.png"
+                      src={process.env.PUBLIC_URL + "/assets/images/5day.png"}
                       alt="Work Scheduler"
                       className="schedule"
                     />
@@ -109,7 +109,7 @@ const Work = () => {
                   </p>
                   <a href="https://github.com/pettisnick/HW3-Javascript-Password-Generator">
                     <img
-                      src="./images/passwordGen.png"
+                      src={process.env.PUBLIC_URL + "/assets/images/passwordGen.png"}
                       alt="Password Generator"
                       className="password"
                     />
@@ -129,9 +129,9 @@ const Work = () => {
                     expenses and deposits to their budget with or without a
                     connection.{" "}
                   </p>
-                  <a href="https://github.com/pettisnick/Budget-Trackers">
-                    <img
-                      src="./images/budget.png"
+                  <a  href="https://github.com/pettisnick/Budget-Trackers">
+                    <img 
+                      src={process.env.PUBLIC_URL + "/assets/images/budget.png"}
                       alt="Budget Tracker"
                       className="budTracker"
                     />
