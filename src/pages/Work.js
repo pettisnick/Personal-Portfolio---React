@@ -4,7 +4,7 @@ import "./work.css";
 const Work = () => {
   return (
     <>
-      <div className="portfolio-bg"></div>
+      <div  className="portfolio-bg"></div>
       <main className="pt-6">
         <div className="columns pl-2">
           <section className="box column is-2 mx-4">
