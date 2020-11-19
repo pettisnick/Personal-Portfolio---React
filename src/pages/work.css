@@ -1,19 +1,24 @@
-.media p {
+p {
   text-align: center;
   color: red;
 }
 
-.media img {
-  margin-left: auto;
-  margin-right: auto;
+.work {
+  display: box;
+}
+
+.work figure img {
+  margin: auto;
+  text-align: center;
   display: block;
   width: 550px;
   height: 450px;
   margin-bottom: 30px;
+  justify-content: center;
+  box-shadow: black 0 0 10px;
 }
 
-.media img {
-  border: 2px solid black;
-}
+
+
 
 
