@@ -19,10 +19,10 @@ function Navbar() {
               className={
                 window.location.pathname === "/About" ||
                 window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
+                ? "nav-link active"
+                : "nav-link"
               }
-            >
+              >
               About
             </Link>
           </li>
@@ -32,10 +32,10 @@ function Navbar() {
               to="/work"
               className={
                 window.location.pathname === "/work"
-                  ? "nav-link active"
-                  : "nav-link"
+                ? "nav-link active"
+                : "nav-link"
               }
-            >
+              >
               Work
             </Link>
           </li>
@@ -44,7 +44,7 @@ function Navbar() {
               style={{ color: "white" }}
               className="nav-link"
               href={process.env.PUBLIC_URL + "/assets/Resume.pdf"}
-            >
+              >
               Resume
             </a>
           </li>
@@ -55,7 +55,7 @@ function Navbar() {
               href="https://github.com/pettisnick"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              >
               Github
             </a>
           </li>
@@ -66,17 +66,13 @@ function Navbar() {
               href="https://www.linkedin.com/in/nickpettis/"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              >
               Linkedin
             </a>
           </li>
         </ul>
       </div>
-      <img
-        src={process.env.PUBLIC_URL + "/assets/Images/logoBackwards.png"}
-        alt="logo"
-        className="backLogo"
-      />
+      <img src={process.env.PUBLIC_URL + "/assets/Images/logoBackwards.png"} alt="logo" className="backLogo" />
     </nav>
   );
 }
