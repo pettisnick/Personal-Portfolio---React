@@ -92,21 +92,20 @@ const Work = () => {
                 <div className="media">
                   <div className="media-content">
                     <p>
-                      <a href="https://floating-cliffs-80394.herokuapp.com/">
-                        <strong>Note Taker</strong>
+                      <a href="https://pettisnick.github.io/React-Employee-Directory/#/">
+                        <strong>Employee Directory</strong>
                       </a>{" "}
-                      is an application that uses express to write, save, and
-                      delete notes.
+                      is a React application that allows the user to view the entire employee directory at once.
                     </p>
                     <figure>
-                      <a href="https://github.com/pettisnick/Client-Contact-Tracker">
+                      <a href="https://github.com/pettisnick/React-Employee-Directory">
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/NoteTaker.png"
+                            "/assets/images/employee.png"
                           } 
-                          alt="Note Taker"
-                          className="notes"
+                          alt="Employee Directory"
+                          className="directory"
                         />
                       </a>
                     </figure>
@@ -118,7 +117,7 @@ const Work = () => {
                 <div className="media">
                   <div className="media-content">
                     <p>
-                      <a href="https://blooming-eyrie-04708.herokuapp.com/">
+                      <a href="https://shielded-eyrie-58367.herokuapp.com/">
                         <strong>Budget Tracker</strong>
                       </a>{" "}
                       is a progressive web application that allows the user to
