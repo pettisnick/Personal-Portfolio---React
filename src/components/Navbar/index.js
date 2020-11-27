@@ -43,7 +43,7 @@ function Navbar() {
             <a
               style={{ color: "white" }}
               className="nav-link"
-              href={process.env.PUBLIC_URL + "/assets/Resume.pdf"}
+              href={process.env.PUBLIC_URL + "/assets/updated2020Resume.pdf"}
               >
               Resume
             </a>
