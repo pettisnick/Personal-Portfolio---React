@@ -113,6 +113,31 @@ const Work = () => {
                 </div>
               </div>
               <hr />
+              <div className="assignment card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p>
+                      <a href="https://floating-cliffs-80394.herokuapp.com/">
+                        <strong>Note Taker</strong>
+                      </a>{" "}
+                      is an application that uses express backend in order to write, save, and delete notes.
+                    </p>
+                    <figure>
+                      <a href="https://github.com/pettisnick/Express-Note-Taker">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/assets/images/NoteTaker.png"
+                          } 
+                          alt="Note Taker"
+                          className="notes"
+                        />
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <hr />
               <div className="card-content">
                 <div className="media">
                   <div className="media-content">
