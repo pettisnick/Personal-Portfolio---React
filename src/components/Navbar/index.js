@@ -7,9 +7,9 @@ function Navbar() {
     <nav className="d-flex justify-content-center navbar navbar-expand-lg bg-primary">
       {/*<h1>Nick's Personal</h1> */}
       <img src={process.env.PUBLIC_URL + "/assets/images/personalLogo.png"} alt="logo" className="logo" />
-      <Link style={{ color: "white" }} className="navbar-brand" to="/">
+      {/*<Link style={{ color: "white" }} className="navbar-brand" to="/">
         Home
-      </Link>
+  </Link>*/}
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -72,7 +72,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <img src={process.env.PUBLIC_URL + "/assets/Images/logoBackwards.png"} alt="logo" className="backLogo" />
+      <img src={process.env.PUBLIC_URL + "/assets/images/logoBackwards.png"} alt="logo" className="backLogo" />
     </nav>
   );
 }
