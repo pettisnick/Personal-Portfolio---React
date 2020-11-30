@@ -77,7 +77,7 @@ const Work = () => {
                       <a href="https://github.com/pettisnick/LessonWorks">
                         <img
                           src={
-                            process.env.PUBLIC_URL + "/assets/images/lesson.png"
+                            process.env.PUBLIC_URL + "/assets/images/lesson.PNG"
                           }
                           alt="LessonWorks"
                           className="lesson"
@@ -102,7 +102,7 @@ const Work = () => {
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/employee.png"
+                            "/assets/images/employee.PNG"
                           } 
                           alt="Employee Directory"
                           className="directory"
@@ -128,7 +128,7 @@ const Work = () => {
                       <a href="https://github.com/pettisnick/Budget-Trackers">
                         <img
                           src={
-                            process.env.PUBLIC_URL + "/assets/images/budget.png"
+                            process.env.PUBLIC_URL + "/assets/images/budget.PNG"
                           }
                           alt="Budget Tracker"
                           className="budget"
@@ -156,7 +156,7 @@ const Work = () => {
                       <a href="https://github.com/pettisnick/Google-Search-using-React">
                         <img
                           src={
-                            process.env.PUBLIC_URL + "/assets/images/google.png"
+                            process.env.PUBLIC_URL + "/assets/images/google.PNG"
                           }
                           alt="Google Books Search"
                           className="books"
